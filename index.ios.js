@@ -1,11 +1,11 @@
 // place code in here for IOS.
 import React from 'react';
-import { Text, AppRegistry } from 'react-native';
+import { AppRegistry } from 'react-native';
+import Header from './src/components/header';
 
-const App = () => {
-  return (
-    <Text>Some Text</Text>
-  );
-};
+const App = () => (
+    <Header/>
+);
+
 
 AppRegistry.registerComponent('albums', () => App);
